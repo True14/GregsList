@@ -21,14 +21,16 @@ header h1 {
 .siteName {
   display: inline-block;
 }
-nav {
+.topNav {
   display: inline-block;
   float: right;
   margin-top: 12px;
   font-size: 2em;
 }
-
-nav a {
+a {
+  text-decoration: none;
+}
+.topNav a {
   color: purple;
   text-decoration: none;
   margin-right: 12px;
@@ -53,6 +55,7 @@ input {
   width: 50%;
   height: 40px;
   font-size: 25px;
+  border-radius: 3px;
 }
 
 img {
@@ -60,4 +63,26 @@ img {
   margin-left: 15px;
   vertical-align: bottom;
   border: 1px solid grey;
+  border-radius: 3px;
+}
+.navigation {
+  margin-top:30px;
+  border: 1px solid grey;
+  display: inline-block;
+  margin-bottom: 30px;
+  border-radius: 3px;
+}
+
+.button {
+  font-size: 20px;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+.navSpan {
+  font-size: 20px;
+  border-left:1px solid grey;
+  border-right: 1px solid grey;
+  padding: 8px 25px;
 }
