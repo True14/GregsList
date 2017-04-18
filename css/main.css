@@ -86,3 +86,25 @@ img {
   border-right: 1px solid grey;
   padding: 8px 25px;
 }
+
+.results {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.date {
+  color: grey;
+}
+
+.position {
+  padding: 8px 25px;
+  color: blue;
+}
+
+.location {
+  color: grey;
+}
+
+.result {
+  margin-bottom: 15px;
+}
